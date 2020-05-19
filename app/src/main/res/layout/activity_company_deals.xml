@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin.Options.CompanyDeals">
+
+
+    <TextView
+        android:layout_height="145dp"
+        android:layout_width="match_parent"
+        android:text="@string/company_deals"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:paddingVertical="50dp"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/beacon3"
+        android:layout_marginBottom="28dp"
+        android:gravity="center_horizontal"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+
+</LinearLayout>

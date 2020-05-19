@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Help">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:verticalScrollbarPosition="right"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:background="@drawable/beacon3"
+                android:fontFamily="cursive"
+                android:gravity="center_horizontal"
+                android:paddingVertical="50dp"
+                android:text="Help"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30sp"
+                tools:layout_editor_absoluteX="-7dp"
+                tools:layout_editor_absoluteY="12dp"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/b01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="testing1"
+                android:drawableLeft="@drawable/faqicon"
+                android:text=" Frequently Asked Questions"
+                android:textColor="#FFF"
+                android:textStyle="bold" />
+            <TextView
+
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/documenttxt"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="#291349"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+
+
+            <Button
+                android:id="@+id/b02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_light"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+ android:drawableLeft="@drawable/user"
+                android:text="Users" />
+
+            <TextView
+
+                android:id="@+id/user1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user1txt"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="#291349"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_light"
+                android:text="Administrator"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/admin"
+                android:textColor="#FFF"/>
+
+            <TextView
+
+                android:id="@+id/administrator123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/administrator123"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="#291349"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

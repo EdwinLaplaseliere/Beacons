@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <PreferenceCategory
+        android:title="SEETINGS">
+ <PreferenceScreen
+     android:title="Categories"
+     android:key="categories"
+     android:icon="@drawable/ic_choose"
+     android:summary="@string/preferred_categories"
+
+     >
+
+     <CheckBoxPreference
+         android:title="@string/sports_choice"
+         android:key="sports_all_related"
+         android:defaultValue="false"
+         android:checked="false"
+         />
+
+     <CheckBoxPreference
+         android:title="@string/food_choice"
+         android:key="food_all_related"
+         android:defaultValue="false"
+         android:checked="false"/>
+
+     <CheckBoxPreference
+         android:title="@string/clothing_choice"
+         android:key="clothes_all_related"
+         android:defaultValue="false"
+         android:checked="false"/>
+     <CheckBoxPreference
+         android:title="@string/beauty_choice"
+         android:key="beauty_all_related"
+         android:defaultValue="false"
+         android:checked="false"/>
+     <CheckBoxPreference
+         android:title="@string/technology_choice"
+         android:key="tech_all_related"
+         android:defaultValue="false"
+         android:checked="false"/>
+     <CheckBoxPreference
+         android:title="@string/fun_choice"
+         android:key="fun_all_related"
+         android:defaultValue="false"
+         android:checked="false"/>
+     <CheckBoxPreference
+         android:title="@string/cinema_choice"
+         android:key="cinema_all_related"
+         android:defaultValue="false"
+         android:checked="false"/>
+
+ </PreferenceScreen>
+
+
+
+
+
+    </PreferenceCategory>
+
+
+    <CheckBoxPreference
+        android:key="pref_sync"
+        android:title="Preferred search engine"
+        android:summary="Select your preferred search engine"
+        android:defaultValue="true"
+        />
+    <ListPreference
+        android:dependency="pref_sync"
+        android:key="Engines"
+        android:title="@string/title_engines"
+        android:icon="@drawable/ic_search_engines"
+        android:entries="@array/searchEngines"
+        android:entryValues="@array/searchEngines"
+        android:defaultValue="@string/default_seach"
+        android:summary="Google Chrome"
+        />
+
+    <Preference
+        android:key="feedback"
+        android:title="Send feedback"
+        android:icon="@drawable/ic_feedback"
+        android:summary="Report technical issues or suggest new features"/>
+    <Preference
+        android:key="Share"
+        android:title="Share App"
+        android:icon="@drawable/ic_share"
+        android:summary="Share this app on social media"/>
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.beacons.Admin.Options.addBeacon">
+
+
+    <TextView
+        android:layout_height="145dp"
+        android:layout_width="match_parent"
+        android:text="Add Beacon"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:paddingVertical="50dp"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/beacon3"
+        android:layout_marginBottom="28dp"
+        android:gravity="center_horizontal" />
+
+
+    <EditText
+        android:id="@+id/Beaconid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:editable="false"
+        android:hint="Beacon id"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/search_beacon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_search"
+        />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btnbg"
+        android:onClick="saveBeacon"
+         />
+
+    <TextView
+        android:id="@+id/backToDash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to DashBoard"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:gravity="center_horizontal" />
+
+
+
+</LinearLayout>

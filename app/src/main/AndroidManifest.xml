@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.beacons">
+
+    <application
+        android:name=".Notifications.Notifications"
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".User.Help" />
+        <activity android:name=".Admin.Options.CompanyBeacons" />
+        <activity android:name=".Admin.Options.addBeacon" />
+        <activity android:name=".Admin.Options.CompanyDeals" />
+        <activity android:name=".Admin.Options.AddDeal" />
+        <activity android:name=".Admin.session.ManagerDashBoard" />
+        <activity android:name=".Admin.session.Login" />
+        <activity android:name=".User.settings" />
+        <activity android:name=".Admin.session.signup" />
+        <activity android:name=".User.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".Notifications.NotificationReceiver" />
+    </application>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

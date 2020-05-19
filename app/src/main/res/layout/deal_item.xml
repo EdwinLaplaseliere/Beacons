@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    app:cardBackgroundColor="#FFFFE8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+
+        <TextView
+            android:id="@+id/deal_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deal"
+            android:layout_toStartOf="@id/deal_price"
+            android:layout_alignParentStart="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_toLeftOf="@id/deal_price"
+            android:layout_alignParentLeft="true" />
+        <TextView
+            android:id="@+id/deal_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="56"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/text_view_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Times"
+            android:layout_below="@id/deal_title"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/deal_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Url"
+            android:ellipsize="end"
+            android:layout_below="@id/text_view_times"
+            android:layout_alignParentLeft="true" />
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

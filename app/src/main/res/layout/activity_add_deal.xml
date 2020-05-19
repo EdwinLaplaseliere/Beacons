@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.beacons.Admin.Options.AddDeal">
+
+
+<TextView
+    android:layout_height="145dp"
+    android:layout_width="match_parent"
+    android:text="Add Deal"
+    android:textAlignment="center"
+    android:textColor="#000"
+    android:paddingVertical="50dp"
+    android:textSize="30sp"
+    android:fontFamily="cursive"
+    android:background="@drawable/beacon3"
+    android:layout_marginBottom="28dp"
+    android:gravity="center_horizontal" />
+<TextView
+android:id="@+id/textView3"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Deal"
+android:layout_marginHorizontal="30dp"
+android:textColor="@color/colorAccent"/>
+
+<EditText
+android:id="@+id/dealDescription"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginHorizontal="30dp"
+android:layout_marginBottom="30dp"
+    />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Deal Price Or Discount"
+android:layout_marginHorizontal="30dp"
+android:textColor="@color/colorAccent"/>
+
+<EditText
+
+android:id="@+id/dealPrice"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginHorizontal="30dp"
+android:layout_marginBottom="30dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Link to website"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/dealLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        />
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="set Times"
+android:layout_marginHorizontal="30dp"
+android:textColor="@color/colorAccent"/>
+
+    <Spinner
+        android:id="@+id/times"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="10dp"
+        />
+
+<Button
+    android:id="@+id/save"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Save"
+android:layout_marginHorizontal="30dp"
+android:layout_marginBottom="10dp"
+android:background="@drawable/btnbg"
+android:onClick="saveDeal"
+    tools:ignore="OnClick" />
+
+<TextView
+android:id="@+id/backToDash"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Back to DashBoard"
+android:textAlignment="center"
+android:textColor="#000"
+android:gravity="center_horizontal" />
+
+    </LinearLayout>

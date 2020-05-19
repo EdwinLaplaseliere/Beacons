@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">AdvConn</string>
+
+
+    <string name="location_access_message">This app needs access to the location</string>
+    <string name="grant_location_access">Please grant location permissions to track beacons </string>
+    <string name="not_support_bluetooth_msg">This devise does not support bluetooth, its not possible to track beacons</string>
+    <string name="location_disabled">High localization permission cannot be handled by this closed</string>
+    <string name="location_settings">As the location permission has not been granted,</string>
+    <string name="cannot_discover_beacons">this app will not be able to search for beacons</string>
+    <string name="funcionality_limited">Limited functionality</string>
+    <string name="no_bluetooth_msg">Looking for beacon is not possible when your bluetooth is not active</string>
+    <string name="start_looking_for_beacons">Starting looking for beacons</string>
+    <string name="stop_looking_for_beacons">Stopping looking for beacons</string>
+    <string name="no_beacons_detected">No beacon has been found</string>
+<string name="could_not_save" >something unexpected happened, please try again later</string>
+
+<!--deals-->
+    <string name="deal_saved">Your Deal was successfully registered</string>
+
+    <!--Categories-->
+
+    <string name="preferred_categories" translatable="false">Prefered Categories To show Notification of</string>
+    <string name="sports_choice">Sports</string>
+    <string name="food_choice">Food</string>
+    <string name="clothing_choice">Clothing</string>
+    <string name="beauty_choice">Beauty</string>
+    <string name="technology_choice">Technology</string>
+    <string name="fun_choice">Fun</string>
+    <string name="cinema_choice">Cinema</string>
+
+
+    <!--only for testing, no sure about it yet-->
+    <string name="test_message">is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the industrys standard dummy
+        text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five centuries</string>
+
+    <!--This is for the navigation view-->
+    <string name="search">Search</string>
+    <string name="session">Login/register</string>
+    <string name="manage">Manage</string>
+    <string name="help">Help</string>
+    <string name="radar">Radar</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+
+
+<!--beacons view-->
+    <string name="company_beacons"> Company Beacons</string>
+
+    <!--deals view-->
+    <string name="company_deals"> Company Deals</string>
+
+<!--Settings-->
+    <string name="title_engines">List Of Search Engines</string>
+    <string name="default_seach">Google Chrome</string>
+
+    <string-array name="searchEngines">
+        <item>Google Chrome</item>
+        <item>Internet Explorer</item>
+        <item>Safary</item>
+    </string-array>
+    <!--This is for thw categories-->
+
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <!--Times for the deals-->
+    <string name="documenttxt">"
+What is Beacon?
+
+
+
+Beacon is Bluetooth low energy transmitter device that connects with nearby mobile electronic devices such as tablets, cell phone, smartwatch even busses.
+
+How Beacon Works?
+
+
+This technology is applicable for any function, some public transport company use this kind of technology to measure the distance from the buss and the bus stop also the stop\’s number where this bus is close by that way the traffic control of that company can calculate how long going to take for a bus arrive from the last bus stop.
+
+Is secure use Beacon?
+
+            Yes, is a completely secure technology platform that is evolving globally.
+
+Why chose this technology?
+
+
+Because is secure for our app cloud and will be useful for everybody allows authenticating entry as well as set a password complexity on our app.
+
+What do I need to connect to a beacon?
+
+            Just need a device (smartphone, table, etc) with Bluetooth on and be close to the beacon.
+
+Do I need Internet for get connection to the beacon?
+
+            If you are user, you do not need internet, just need Bluetooth on. If you are administrator you need internet.
+
+Can I get deals everyday?
+
+            If you walk close to any beacon with your Bluetooth on, and the company has the deal , for sure you are going to get.
+
+ "</string>
+
+    <!--this is for the help page-->
+
+    <string name="todo">TODO</string>
+    <string name="user">Users</string>
+    <string name="user1txt">" How Beacon Works for Users?
+
+1)      Users are lucky they do not need to register on our platform. They just need the Bluetooth on and star close to our beacon (approximately 10 meters).
+
+2)      When they walk close to our beacon, they want to get notification about our services, once you get these notifications just go into the setting which one are you interesting? We have seven categories: food, technology, clothing, fun, cinema, beauty and sports).
+
+3)      According to the category you have select, you want to get notifications about your preferences.
+
+4)      Once you get notification go into that link and get your deals, according with the policy of each company .
+
+ "</string>
+    <string name="administrator">Administrator</string>
+    <string name="administrator123">" How Beacon Works for Administrators?
+
+1)The First thing you have to do is get an account with us company. You should register your company, we are going to get all the details: email, brand, name and password.
+
+Once you have registered your company, we will create a profile for you which you can enter whenever you want, anytime with the details you have proportioned to us.
+
+2)The second thing you must do is select one of the options that will appear in our list of categories, according to the activity that your company carries out. The categories that we offer are the following: technology, cinema, sports, clothing, food, beauty and fun.
+
+3)The third thing you must do is register the beacon by pressing a button on the device you want to use, keep in mind that the device must be within a few meters for activation.
+
+4)The last step, but not the least important is the creation of your own deals, keep in mind that your deals want a name, price or discount coupon and it is programmed for the time that you want to start and finish it. It also has an option to completely delete the deal."</string>
+
+    <!--Beacon Categories-->
+    <string-array name="categories">
+        <item>Company Category</item>
+        <item>Food</item>
+        <item>Beauty</item>
+        <item>Fun</item>
+        <item>Sports</item>
+        <item>Tech</item>
+        <item>Cinema</item>
+    </string-array>
+    <!--Deal times-->
+    <string-array name="times">
+        <item>8:00 to 11:00</item>
+        <item>11:30 to 15:00</item>
+        <item>15:30 to 19:00</item>
+        <item>19:00 to 19:30</item>
+        <item>19:30 to 22:00</item>
+    </string-array>
+
+
+</resources>
